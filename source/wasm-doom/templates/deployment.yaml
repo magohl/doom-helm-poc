@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wasm-doom
+  labels:
+    app: wasm-doom
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: wasm-doom
+  template:
+    metadata:
+      labels:
+        app: wasm-doom
+    spec:
+      containers:
+        - name: doom
+          image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+            - containerPort: 8000
