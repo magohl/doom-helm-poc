@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  wasm-doom:
+  - apiVersion: v2
+    created: "2025-03-23T15:08:13.5447879+01:00"
+    description: Host WebAssembly Doom on Kubernetes via NGINX
+    digest: a2afd6af8a8fab816d8a4d29ce12742a00d1de592c9a5353ac9721e6c9fc4f19
+    name: wasm-doom
+    type: application
+    urls:
+    - wasm-doom-0.1.3.tgz
+    version: 0.1.3
+generated: "2025-03-23T15:08:13.5437143+01:00"
