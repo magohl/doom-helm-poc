@@ -1,6 +1,6 @@
 image:
-  repository: elliottking/doom-wasm:0.1.1
-  tag: main
+  repository: elliottking/doom-wasm
+  tag: 0.1.1
   pullPolicy: IfNotPresent
 
 replicaCount: 1
