@@ -2,12 +2,22 @@ apiVersion: v1
 entries:
   wasm-doom:
   - apiVersion: v2
-    created: "2025-03-23T06:10:50.74680545Z"
+    created: "2025-03-23T09:01:51.679800531Z"
     description: Host WebAssembly Doom on Kubernetes via NGINX
-    digest: 77d2c83f875f5ee7f062ab792af2ffeca941df39e9d0455f843be5e8d8621d30
+    digest: 13235cacff8b57ad9f0a5b1cf9d154b948bc7992e44a4e9c05071b28bf4be57f
+    name: wasm-doom
+    type: application
+    urls:
+    - wasm-doom-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.1.1
+    created: "2025-03-23T09:01:51.679673797Z"
+    description: Host WebAssembly Doom on Kubernetes via NGINX
+    digest: 53e26461721e65aabefff642973f61f9484fa2526dabc9655010c4d516d823ba
     name: wasm-doom
     type: application
     urls:
     - wasm-doom-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-23T06:10:50.746549509Z"
+generated: "2025-03-23T09:01:51.679423918Z"
